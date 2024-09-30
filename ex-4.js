@@ -4,4 +4,4 @@
 let numberOfSoldProduct = 12000;
 let numberOfProductInStock = undefined;
 
-console.log((numberOfSoldProduct / numberOfProductInStock) * 100); //NaN
+console.log((numberOfSoldProduct / numberOfProductInStock) * 100); //NaN เพราะ undefined คือค่าที่ไม่ถูกกำหนดหรือไม่มีค่า ดังนั้นจึงไม่สามารถนำมาทำการคำนวณได้
